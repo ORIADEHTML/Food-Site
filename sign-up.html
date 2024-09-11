@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="" download><a href=""></a>
+            <h2><a href="/index.html">Shubhame</a></h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="./sign-up.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="https://formspree.io/f/xvgpzrdd" method="post">
+       <div class="form">
+        <h1>Signup Form</h1>
+        <label for="full-name">Full Name
+            <input type="text" placeholder="Enter your full name" required name="full name">
+        </label>
+        <label for="email">Email Address
+            <input type="email" placeholder="Enter your email Address" required name="email">
+        </label>
+        
+        <label for="password">Password
+            <input type="password" placeholder="Enter your password" required name="password">
+        </label>
+        <label for="birth-date">Birth Date
+            <input type="date" required name="birth-date">
+        </label>
+        <label for="gender">Gender
+            <select name="" id="">
+                <option value="">Select your gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Trans</option>
+            </select>
+        </label>
+        <button>Submit</button>
+       </div>
+    </form>
+</body>
+</html>
